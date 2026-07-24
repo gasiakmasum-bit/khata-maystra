@@ -1,4 +1,2 @@
-node_modules
-dist
-.DS_Store
-*.log
+"node_modules" | Out-File -FilePath ".gitignore" -Encoding utf8
+"dist" | Add-Content -Path ".gitignore" -Encoding utf8
